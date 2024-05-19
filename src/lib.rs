@@ -21,7 +21,25 @@
 /// - `true` if the integer is even.
 /// - `false` if the integer is odd.
 ///
-/// [What are even numbers?](https://en.wikipedia.org/wiki/Parity_(mathematics))
+/// # Panics
+/// The function does not panic under any circumstances.
+///
+/// # Errors
+/// The function does not return a `Result` type and does not return an error.
+///
+/// # Safety
+/// The function does not use unsafe code.
+///
+/// # Mutability
+/// The function does not require mutable arguments.
+///
+/// # Performance
+/// The function is optimized for performance and does not allocate memory on the heap.
+/// It uses the modulo operator to check if the integer is even.
+/// The function is expected to run in constant time, O(1).
+/// The function is expected to run in constant space, O(1).
+///
+/// See: Number parity, https://en.wikipedia.org/wiki/Parity_(mathematics)
 pub fn is_even(value: isize) -> bool {
     value % 2 == 0
 }
