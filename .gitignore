@@ -1,3 +1,7 @@
+*.beam
+*.ez
+/build
+erl_crash.dump
 /target
 zig-cache
 node_modules
