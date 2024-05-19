@@ -1,0 +1,14 @@
+{
+    "name": "is_even",
+    "version": "1.0.0",
+    "description": "A library to check if a number is even or not",
+    "main": "src/is_even.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "author": "Joshi",
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^29.7.0"
+    }
+}
